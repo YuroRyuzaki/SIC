@@ -9,8 +9,9 @@ import UIKit
 
 class NewCustomerViewController: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet weak var birthday: UITextField!
+    
    
+    @IBOutlet weak var birthday: UITextField!
     
     let datePicker = UIDatePicker()
     override func viewDidLoad() {
@@ -52,7 +53,7 @@ class NewCustomerViewController: UIViewController, UITextFieldDelegate {
         birthday.text = formatter.string(from: datePicker.date)
         self.view.endEditing(true)
     }
-    //生年月日設定スタート
+    //生年月日設定エンド
     /*
     // MARK: - Navigation
 

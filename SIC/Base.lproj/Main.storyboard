@@ -107,7 +107,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="birthday" destination="RvM-KG-WNf" id="RdW-kj-klg"/>
+                        <outlet property="birthday" destination="RvM-KG-WNf" id="bfx-mB-YEC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IR3-Su-MII" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
