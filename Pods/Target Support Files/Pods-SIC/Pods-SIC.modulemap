@@ -1,0 +1,6 @@
+framework module Pods_SIC {
+  umbrella header "Pods-SIC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SICTests {
+  umbrella header "Pods-SICTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
